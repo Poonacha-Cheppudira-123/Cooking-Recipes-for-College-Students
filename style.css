@@ -1,3 +1,58 @@
-""{
-    
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+html{
+    font-size: 20px;
+    font-family: 'Montesserat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Breakfast Section */
+#welcome{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF2gzuLXngQ2tcVGcDr-_GuIAoyaOVkdEP3A&usqp=CAU);
+    background-size: cover;
+    background-position: top center;
+    position: relative
+}
+#welcome::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .7;
+    z-index: -1;
+}
+#welcome h1{
+    display: block;
+    width: fit-content;
+    font-size: 2rem;
+    position: relative;
+    color: black;
+}
+#welcome .cta{
+    display: inline-block;
+    padding: 10px 30 px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 20px;
+    transition: .2s ease background-color;
+}
+/* Lunch Section */
+/* Dinner Section */
